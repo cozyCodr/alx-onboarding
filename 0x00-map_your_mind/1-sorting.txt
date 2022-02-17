@@ -1,0 +1,40 @@
+Reads in three numbers and writes them all in sorted order
+
+define ARRAY called NUMBERS
+
+X = first input
+Y = second input
+Z = third user input
+
+IF (X < Y)
+	IF (X < Z)
+		IF (Y < Z)
+			ADD X to NUMBERS
+			ADD Y to NUMBERS
+			ADD Z to NUMBERS
+		ELSE
+			ADD X to NUMBERS
+            		ADD Z to NUMBERS
+            		ADD Y to NUMBERS
+    	ELSE
+        	ADD Z to NUMBERS
+        	ADD X to NUMBERS
+        	ADD Y to NUMBERS
+ELSE IF (Y < Z)
+	IF(X < Z)
+        	ADD Y to NUMBERS
+        	ADD X to NUMBERS
+        	ADD Z to NUMBERS
+    	ELSE
+        	ADD Y to NUMBERS
+        	ADD Z to NUMBERS
+        	ADD X to NUMBERS
+ELSE 
+	IF(X < Y)
+    		ADD Z to NUMBERS
+    		ADD X to NUMBERS
+    		ADD Y to NUMBERS
+    	ELSE
+        	ADD Z to NUMBERS
+        	ADD Y to NUMBERS
+        	ADD X to NUMBER

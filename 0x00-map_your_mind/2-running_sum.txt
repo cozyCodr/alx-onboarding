@@ -1,0 +1,13 @@
+Calculate a running sum
+
+INPUT numbers
+Store in ARRAY called NUMBERS
+Let SUM = 0
+
+FOR EACH number in NUMBERS
+    IF (number > 0)
+        ADD number to SUM
+    ELSE
+        BREAK loop
+OUTPUT SUM
+

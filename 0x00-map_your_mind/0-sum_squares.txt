@@ -1,0 +1,14 @@
+Calculate the sum of squares of given input of numbers
+
+
+Create ARRAY called NUMBERS
+
+INPUT list of numbers separated by space
+CREATE variable SUM initialized to 0
+
+FOR EACH number in NUMBERS
+	Square the number 
+	store it in a variable called SQUARED
+	ADD SQUARED to the previous value of SUM
+OUTPUT SUM
+
